@@ -1,0 +1,245 @@
+@font-face {
+    font-family: 'Cherrybomb';
+	src: url(/fonts/Cherrybomb.ttf);
+}
+
+*{
+    font-family: 'UD デジタル 教科書体 NK-B';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+text-decoration: none;
+color: #000;
+}
+
+header{
+    height: 70px;
+    line-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 180px;
+    position: fixed;
+    width: 100vw;
+    background-color: rgba(255,255,255,1);
+    color:#c01d74;
+    margin-top: 0;
+}
+
+header ul{
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    color:#c01d74;
+}
+
+header p{
+    font-size: 33px;
+    font-weight: bold;
+}
+
+header a{
+    font-size: 24px;
+    font-weight: bold;
+    color:#c01d74;
+}
+
+h1{
+    font-size: 60px;
+    color:#c01d74;
+    letter-spacing: 0.01em;
+    font-family: 'Cherrybomb';
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2{
+    font-size: 50px;
+    color:#c01d74;
+    letter-spacing: 0.01em;
+    display: inline-block;
+    font-family: 'Cherrybomb';
+    text-align: center;
+}
+
+h3{
+    color:#c01d74;
+    font-size: 26px;
+}
+
+/***********最初の画像*************/
+
+.firstview {
+    padding: 0;
+    font-family: 'Cherrybomb';
+    position: fixed;
+}
+
+
+.firstView img{
+    width: 100%;
+    font-family: 'Cherrybomb';
+}
+
+/*********** We make people happy ! *************/
+
+.intro{
+    padding: 40px 180px;
+}
+.intro p{
+    font-size: 18px;
+    text-align: center;
+    color:#192e77;
+    line-height: 30px;
+}
+
+.motto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.motto img{
+    width: 27%;
+    padding: 25px
+}
+
+.motto p{
+    text-align: left;
+    margin-left: 20px;
+}
+
+
+.clearfix{
+    clear: both;
+}
+
+/*********** How to order *************/
+
+.order{
+    text-align: center;
+    background-color: #fbe4ee;
+    background-size: cover;
+    padding: 40px 180px;
+}
+
+.order p{
+    font-size: 18px;
+    margin-top: 24px;
+    text-align: center;
+    color:#192e77;
+}
+
+.order-content img{
+    width: 140px;
+    margin: 0 100px;
+}
+
+.order-contents{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.order a{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: #fff;
+    width: 120px;
+    line-height: 70px;
+    display: inline-block;
+    border-radius: 16px;
+}
+
+.order .botton{
+    background-color: #c01d74;
+}
+
+/*********** Flavor *************/
+
+.flavor{
+    padding: 40px 180px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.flavor p{
+    font-size: 18px;
+    margin-top: 24px;
+    text-align: center;
+    color:#192e77;
+}
+
+
+
+.flavor img{
+    width: 300px;
+    padding: 40px;
+}
+
+.flavor a{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: #fff;
+    width: 200px;
+    line-height: 80px;
+    display: inline-block;
+    border-radius: 16px;
+    margin: 30px;
+}
+
+.flavor .botton{
+    background-color: #c01d74;
+}
+
+/*********** Little information *************/
+
+.infomation{
+    padding: 40px 180px;
+    text-align: center;
+    background-color: #fbe4ee;
+}
+
+
+.infomation p{
+    font-size: 18px;
+    margin-top: 24px;
+    text-align: center;
+    color:#192e77;
+}
+
+.infomation a{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: #fff;
+    width: 200px;
+    line-height: 80px;
+    display: inline-block;
+    border-radius: 16px;
+    margin: 30px;
+}
+
+.infomation .botton{
+    background-color: #c01d74;
+}
+
+
+/*********** フッター *************/
+
+footer{
+    height: 60px;
+    background-color: #e5a7c9;
+    line-height: 60px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #c01d74;
+}

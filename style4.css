@@ -1,0 +1,198 @@
+@font-face {
+    font-family: 'Cherrybomb';
+	src: url(/fonts/Cherrybomb.ttf);
+}
+
+*{
+    font-family: 'UD デジタル 教科書体 NK-B';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+text-decoration: none;
+color: #000;
+}
+
+
+header{
+    height: 70px;
+    line-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 180px;
+    position: fixed;
+    width: 100vw;
+    background-color: rgba(255,255,255,1);
+    color:#c01d74;
+    margin-top: 0;
+}
+
+header ul{
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    color:#c01d74;
+}
+
+header p{
+    font-size: 33px;
+    font-weight: bold;
+}
+
+header a{
+    font-size: 24px;
+    font-weight: bold;
+    color:#c01d74;
+}
+
+
+.firstview {
+    padding-top: 70px;
+    background-color: #c01d74;
+    color:#fff;
+    
+}
+
+.firstview h1{
+    font-size: 60px;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Cherrybomb';
+}
+
+.firstview h2{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.intro p{
+    color: #192e77;
+    text-align: center;
+    font-size: 20px;
+    margin: 40px;
+}
+
+h3{
+    color: #c01d74;
+    font-size: 26px;
+    margin: 30px;
+    margin-left: 180px;
+}
+
+
+.time{
+    margin-bottom: 10px;
+}
+
+.time p{
+    color: #000;
+    margin: 30px;
+    margin-left: 210px;
+    font-size: 18px;
+    letter-spacing: 10px;
+    letter-spacing: 2px;
+}
+.time-img-box{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 65px;
+}
+
+/*
+.box img{
+    width: 200px;
+}
+*/
+
+.time-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cone{
+    margin-bottom: 10px;
+}
+
+.cone p{
+    color: #000;
+    margin: 30px;
+    margin-left: 210px;
+    font-size: 18px;
+    letter-spacing: 10px;
+    letter-spacing: 2px;
+}
+
+.cone img{
+    width: 220px;
+    margin: 55px;
+}
+
+.cone-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cup{
+    margin-bottom: 10px;
+}
+
+.cup p{
+    color: #000;
+    margin: 30px;
+    margin-left: 210px;
+    font-size: 18px;
+    letter-spacing: 10px;
+    letter-spacing: 2px;
+}
+
+.cup img{
+    width: 270px;
+    margin: 30px;
+}
+
+.cup-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.writing{
+    margin-bottom: 10px;
+}
+
+.writing p{
+    color: #000;
+    margin: 30px;
+    margin-left: 210px;
+    font-size: 18px;
+    letter-spacing: 10px;
+    letter-spacing: 2px;
+}
+
+.writing img{
+    width: 180px;
+    margin: 75px;
+}
+
+.writing-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    height: 60px;
+    background-color: #e5a7c9;
+    line-height: 60px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #c01d74;
+}
