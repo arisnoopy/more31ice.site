@@ -16,6 +16,8 @@ a {
     color: #000;
 }
 
+/***********ヘッダー*************/
+
 header {
     height: 70px;
     line-height: 70px;
@@ -39,6 +41,7 @@ header ul {
 header p {
     font-size: 33px;
     font-weight: bold;
+    font-family: 'Cherrybomb';
 }
 
 header a {
@@ -47,8 +50,10 @@ header a {
     color: #c01d74;
 }
 
+/***********共通デザイン*************/
+
 h1 {
-    font-size: 60px;
+    font-size: 50px;
     color: #c01d74;
     letter-spacing: 0.01em;
     font-family: 'Cherrybomb';
@@ -105,7 +110,7 @@ h3 {
 }
 
 .motto img {
-    width: 27%;
+    width: 30%;
     padding: 25px
 }
 
@@ -117,6 +122,20 @@ h3 {
 
 .clearfix {
     clear: both;
+}
+
+/*********** ボタンづくり *************/
+
+.button{
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: #fff;
+    width: 180px;
+    line-height: 70px;
+    display: inline-block;
+    border-radius: 16px;
+    background-color: #c01d74;
 }
 
 /*********** How to order *************/
@@ -144,24 +163,8 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 80vw;
+    width: 65vw;
     margin: 0 auto;
-}
-
-
-.order a {
-    font-size: 20px;
-    font-weight: bold;
-    letter-spacing: 0.1em;
-    color: #fff;
-    width: 120px;
-    line-height: 70px;
-    display: inline-block;
-    border-radius: 16px;
-}
-
-.order .button {
-    background-color: #c01d74;
 }
 
 /*********** Flavor *************/
@@ -186,21 +189,6 @@ h3 {
     padding: 40px;
 }
 
-.flavor a {
-    font-size: 20px;
-    font-weight: bold;
-    letter-spacing: 0.1em;
-    color: #fff;
-    width: 200px;
-    line-height: 80px;
-    display: inline-block;
-    border-radius: 16px;
-    margin: 30px;
-}
-
-.flavor .button {
-    background-color: #c01d74;
-}
 
 /*********** Little information *************/
 
@@ -218,22 +206,9 @@ h3 {
     color: #192e77;
 }
 
-.infomation a {
-    font-size: 24px;
-    font-weight: bold;
-    letter-spacing: 0.1em;
-    color: #fff;
-    width: 200px;
-    line-height: 80px;
-    display: inline-block;
-    border-radius: 16px;
-    margin: 30px;
+.infomation a{
+    margin-top: 20px;
 }
-
-.infomation .button {
-    background-color: #c01d74;
-}
-
 
 /*********** フッター *************/
 

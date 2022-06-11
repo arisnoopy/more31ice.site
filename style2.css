@@ -93,14 +93,14 @@ header a {
     text-align: center;
     padding: 0 40px 0 18px;
     /*文字の左右の余白*/
-    font-size: 26px;
+    font-size: 24px;
     /*文字サイズ*/
     background: #192e77;
     /*背景色*/
     color: #fff;
     /*文字色*/
     box-sizing: border-box;
-    margin-left: 200px;
+    margin-left: 17vw;
 }
 
 .flag:after {
@@ -119,37 +119,82 @@ header a {
     border-style: solid;
 }
 
+/*********************** 　　　　　共通　文字の大きさ　　　　　　 **************************/
+
+h4 {
+    text-align: center;
+    color: #192e77;
+    font-size: 27px;
+    font-family: 'Cherrybomb';
+    margin-bottom: 15px;
+}
+
+h5 {
+    color: #c01d74;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h6 {
+    text-align: center;
+    color: #4f4f4f;
+    font-size: 18px;
+}
+
+/*********************** 　　　　　共通　画像の配置　　　　　　 **************************/
+
+.image {
+    width: 120px;
+    margin: 10px auto;
+}
+
+.text-img img{
+    margin: 0 auto;
+}
+
+.text-img {
+    display: flex;
+    flex-direction: column;
+}
+
+.texts-imgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    width: 65vw;
+    margin: 0 auto;
+}
+
+
+
+
 /*********************************  　　　　　　アイスクリーム編　　　　　　 **************************************/
 
+.ice{
+    margin-bottom: 120px;
+}
 .ice h3 {
     color: #c01d74;
     text-align: center;
-    font-size: 36px;
-    margin: 10px;
-}
-
-.ice h4 {
-    color: #192e77;
-    text-align: center;
     font-size: 30px;
-    font-family: 'Cherrybomb';
-}
-
-.imgs {
-    display: flex;
-    justify-content: space-between;
-    margin: 10px 280px 10px;
-}
-
-.imgs img {
-    width: 130px;
+    margin: 10px;
+    margin-bottom: 25px;
 }
 
 /*********************** 　　　　　　個数をChoice!　　　　　　 **************************/
 
 .number {
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 100px;
+}
+
+.number .text-img{
+    width: 140px;
+}
+
+.single{
+    margin-bottom: 18px;
 }
 
 /*********************** 　　　　　　大きさをChoice!　　　　　　 **************************/
@@ -158,10 +203,46 @@ header a {
     margin-bottom: 100px;
 }
 
+.size .text-img{
+    width: 140px;
+}
+
+.pop{
+    margin-bottom: 25px;
+}
+
+.small{
+    margin-bottom: 30px;
+}
+
+.small-img{
+    width: 100px;
+}
+
+.pop-img{
+    width: 150px;
+}
+
 /*********************** 　　　　　　入れ物をChoice!　　　　　　 **************************/
 
 .box {
     margin-bottom: 100px;
+}
+
+.box .text-img{
+    width: 140px;
+}
+
+.cup{
+    margin-bottom: 65px;
+}
+
+.cone{
+    margin-bottom: 45px;
+}
+
+.waffle-img{
+    width: 140px;
 }
 
 /*********************** 　　　　　　フレーバーをChoice!　　　　　　 **************************/
@@ -175,6 +256,7 @@ header a {
     color: #192e77;
     text-align: center;
     font-size: 18px;
+    margin-bottom: 20px;
 }
 
 .flavor a {
@@ -186,6 +268,8 @@ header a {
     line-height: 60px;
     display: inline-block;
     border-radius: 16px;
+    width: 300px;
+    text-align: center;
 }
 
 .flavor .button {
@@ -194,10 +278,8 @@ header a {
 
 /*********************************  　　　　　　ドリンク編　　　　　　 **************************************/
 
-.drink p {
-    text-align: center;
-    color: #4f4f4f;
-    font-size: 18px;
+.drink{
+    margin-bottom: 120px;
 }
 
 .drink h3 {
@@ -208,7 +290,33 @@ header a {
     letter-spacing: 2px;
 }
 
+.drink .drink-text {
+    text-align: center;
+    color: #4f4f4f;
+    margin: 40px auto;
+}
+
+.cafe{
+    display: flex;
+    flex-flow: column;
+}
+
+.cafes{
+    display: flex;
+    justify-content: space-between;
+    width: 20vw;
+}
+
+.cafes img{
+    margin: 0;
+}
+
+
 /*********************************  　　　　　　ハンドパック編　　　　　　 **************************************/
+
+.handpack{
+    margin-bottom: 100px;
+}
 
 .handpack h3 {
     text-align: center;
@@ -217,15 +325,30 @@ header a {
     margin: 20px;
 }
 
-.handpack p {
+.handpack .handpack-text{
     text-align: center;
     color: #4f4f4f;
-    margin: 20px;
+    margin-bottom: 20px;
 }
 
-.handpack-imgs p {
-    color: #c01d74;
-    font-size: 40px;
+.painto{
+    margin-bottom: 38px;
+}
+
+.painto-img{
+    width: 100px;
+}
+
+.quoto{
+    margin-bottom: 28px;
+}
+
+.big{
+    margin-bottom: 30px;
+}
+
+.big-img{
+    width: 180px;
 }
 
 /*********************************  　　　　　　フッター　　　　　　　 **************************************/
