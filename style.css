@@ -19,35 +19,38 @@ a {
 /***********ヘッダー*************/
 
 header {
-    height: 70px;
-    line-height: 70px;
+    height: 10vh;
+    line-height: 10vh;
     display: flex;
     justify-content: space-between;
-    padding: 0 180px;
+    padding: 0 10vw;
     position: fixed;
     width: 100vw;
     background-color: rgba(255, 255, 255, 1);
     color: #c01d74;
     margin-top: 0;
+    z-index: 1;
 }
 
 header ul {
     display: flex;
-    width: 600px;
+    width: 50vw;
     justify-content: space-between;
     color: #c01d74;
 }
 
 header p {
-    font-size: 33px;
+    font-size: 2vw;
     font-weight: bold;
     font-family: 'Cherrybomb';
+    width: 27vw;
 }
 
 header a {
-    font-size: 24px;
+    font-size: 1.5vw;
     font-weight: bold;
     color: #c01d74;
+    width: 55vw;
 }
 
 /***********共通デザイン*************/

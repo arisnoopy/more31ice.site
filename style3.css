@@ -20,37 +20,41 @@ a {
 
 
 header {
-    height: 70px;
-    line-height: 70px;
+    height: 10vh;
+    line-height: 10vh;
     display: flex;
     justify-content: space-between;
-    padding: 0 180px;
+    padding: 0 10vw;
     position: fixed;
     width: 100vw;
     background-color: rgba(255, 255, 255, 1);
     color: #c01d74;
     margin-top: 0;
+    z-index: 1;
 }
 
 header ul {
     display: flex;
-    width: 600px;
+    width: 50vw;
     justify-content: space-between;
     color: #c01d74;
 }
 
 header p {
-    font-size: 33px;
+    font-size: 2vw;
     font-weight: bold;
+    font-family: 'Cherrybomb';
+    width: 27vw;
 }
 
 header a {
-    font-size: 24px;
+    font-size: 1.5vw;
     font-weight: bold;
     color: #c01d74;
+    width: 55vw;
 }
 
- /*********************************  　　　　　　上の部分　　　　　　　 **************************************/
+/*********************************  　　　　　　上の部分　　　　　　　 **************************************/
 
 .firstview {
     padding-top: 70px;
@@ -72,6 +76,8 @@ header a {
     padding-bottom: 30px;
 }
 
+/*********************************  　　　　　　最初の一言　　　　　　　 **************************************/
+
 .intro p {
     color: #192e77;
     text-align: center;
@@ -79,14 +85,7 @@ header a {
     margin: 40px;
 }
 
-.flavor p {
-    color: #192e77;
-    text-align: center;
-    font-size: 18px;
-    margin: 10px;
-    letter-spacing: 2px;
-    margin-top: 50px;
-}
+/*********************************  　　　　　　共通デザイン　　　　　　　 **************************************/
 
 h3 {
     text-align: center;
@@ -105,32 +104,40 @@ h4 {
     margin-bottom: 30px;
 }
 
+/*********************************  　　　　　　アイスと名前　　　　　　　 **************************************/
+
 .aloha {
     margin: 0 auto;
     text-align: center;
-    margin: 10px;
-
-
-    
+    width: 210px;
 }
 
 .aloha p {
     color: #c01d74;
     text-align: center;
-    letter-spacing: 1px;
+    letter-spacing: 0.8px;
+    font-size: 18px;
+    margin: 0 auto;
+    margin-top: 50px;
 }
 
 
 .aloha img {
-    width: 150px;
+    width: 160px;
+    height: 165px;
+    margin: 0 auto;
 }
 
 .ices {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    margin-left: 100px;
-    margin-right: 100px;
+    width: 75vw;
+    margin: 0 auto;
+    align-items: center;
 }
+
+/*********************************  　　　　　　FOM　　　　　　　 **************************************/
 
 .fom {
     background-image: url(imgs/3_background.png);
@@ -142,9 +149,27 @@ h4 {
     padding-top: 80px;
 }
 
-.season{
+.fom .aloha {
+    margin: 0 auto;
+}
+
+.fom img {
+    width: 200px;
+    height: auto;
+}
+
+.fom p{
+    font-size: 22px;
+}
+/*********************************  　　　　　　SEASON FLAVOR　　　　　　　 **************************************/
+
+
+
+.season .ices {
     margin-bottom: 50px;
 }
+
+/*********************************  　　　　　　フッター　　　　　　　 **************************************/
 
 footer {
     height: 60px;

@@ -19,35 +19,38 @@ a {
 /*********************************  　　　　　　ヘッダー　　　　　　 **************************************/
 
 header {
-    height: 70px;
-    line-height: 70px;
+    height: 10vh;
+    line-height: 10vh;
     display: flex;
     justify-content: space-between;
-    padding: 0 180px;
+    padding: 0 10vw;
     position: fixed;
     width: 100vw;
     background-color: rgba(255, 255, 255, 1);
     color: #c01d74;
     margin-top: 0;
-    z-index: 2;
+    z-index: 1;
 }
 
 header ul {
     display: flex;
-    width: 600px;
+    width: 50vw;
     justify-content: space-between;
     color: #c01d74;
 }
 
 header p {
-    font-size: 33px;
+    font-size: 2vw;
     font-weight: bold;
+    font-family: 'Cherrybomb';
+    width: 27vw;
 }
 
 header a {
-    font-size: 24px;
+    font-size: 1.5vw;
     font-weight: bold;
     color: #c01d74;
+    width: 55vw;
 }
 
 /*********************************  　　　　　　How to order　　　　　　 **************************************/
@@ -119,6 +122,85 @@ header a {
     border-style: solid;
 }
 
+/*********************************  　　　　　　　囲み枠の装飾　　　　　　　 **************************************/
+
+.midasi {
+    position: relative;
+    text-align: center;
+    border: 2px solid #c01d74;
+    background: #fff;
+  }
+  
+  .midasi:before,
+  .midasi:after {
+    position: absolute;
+    content: '';
+  }
+  
+  .midasi:before {
+    top: -40px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border: 2px solid #c01d74;
+    border-radius: 50%;
+    background: #fff;
+  }
+  
+  .midasi:after {
+    top: 4px;
+    left: 4px;
+    width: calc(100% - 8px);
+    height: calc(100% - 8px);
+    border: 2px dashed #c01d74;
+    background: #fff;
+  }
+  
+  .midasi i {
+    font-size: 18px;
+    font-size: 2.0rem;
+    line-height: 60px;
+    position: absolute;
+    z-index: 2;
+    top: -40px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 60px;
+    text-align: center;
+  }
+  
+  .midasi span {
+    position: relative;
+    z-index: 1;
+    display: block;
+    padding: 1.5rem;
+  }
+  
+  .midasi span:before,
+  .midasi span:after {
+    position: absolute;
+    content: '';
+  }
+  
+  .midasi span:before {
+    top: -34px;
+    left: calc(50% - 34px);
+    width: 68px;
+    height: 40px;
+    border: 2px dashed #c01d74;
+    border-radius: 50vw 50vw 0 0;
+  }
+  
+  .midasi span:after {
+    position: absolute;
+    top: 4px;
+    left: calc(50% - 32px);
+    width: 64px;
+    height: 10px;
+    background: #fff;
+  }
+
+
 /*********************** 　　　　　共通　文字の大きさ　　　　　　 **************************/
 
 h4 {
@@ -164,10 +246,23 @@ h6 {
     text-align: center;
     width: 65vw;
     margin: 0 auto;
+    margin-top: 70px;
 }
 
+.yajirusi{
+    width: 60px;
+    margin: 25px;
+}
 
+.yajirusi-text{
+    color: #4f4f4f;
+}
 
+.yajirusi-text{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
 
 /*********************************  　　　　　　アイスクリーム編　　　　　　 **************************************/
 
@@ -256,7 +351,8 @@ h6 {
     color: #192e77;
     text-align: center;
     font-size: 18px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    margin-top: 50px;
 }
 
 .flavor a {
@@ -331,12 +427,21 @@ h6 {
     margin-bottom: 20px;
 }
 
+.handpack .text-img{
+    width: 215.3px;
+    height: 358.36px;
+}
+
 .painto{
     margin-bottom: 38px;
 }
 
 .painto-img{
     width: 100px;
+}
+
+.painto-box .yajirusi{
+    margin-top: 17px;
 }
 
 .quoto{
@@ -349,6 +454,13 @@ h6 {
 
 .big-img{
     width: 180px;
+}
+
+.kuttuku{
+    font-size: 20px;
+    color:#c01d74;
+    text-align: center;
+    margin-top: 70px;
 }
 
 /*********************************  　　　　　　フッター　　　　　　　 **************************************/
