@@ -129,15 +129,15 @@ header a {
     text-align: center;
     border: 2px solid #c01d74;
     background: #fff;
-  }
-  
-  .midasi:before,
-  .midasi:after {
+}
+
+.midasi:before,
+.midasi:after {
     position: absolute;
     content: '';
-  }
-  
-  .midasi:before {
+}
+
+.midasi:before {
     top: -40px;
     left: calc(50% - 40px);
     width: 80px;
@@ -145,18 +145,18 @@ header a {
     border: 2px solid #c01d74;
     border-radius: 50%;
     background: #fff;
-  }
-  
-  .midasi:after {
+}
+
+.midasi:after {
     top: 4px;
     left: 4px;
     width: calc(100% - 8px);
     height: calc(100% - 8px);
     border: 2px dashed #c01d74;
     background: #fff;
-  }
-  
-  .midasi i {
+}
+
+.midasi i {
     font-size: 18px;
     font-size: 2.0rem;
     line-height: 60px;
@@ -167,38 +167,38 @@ header a {
     width: 80px;
     height: 60px;
     text-align: center;
-  }
-  
-  .midasi span {
+}
+
+.midasi span {
     position: relative;
     z-index: 1;
     display: block;
     padding: 1.5rem;
-  }
-  
-  .midasi span:before,
-  .midasi span:after {
+}
+
+.midasi span:before,
+.midasi span:after {
     position: absolute;
     content: '';
-  }
-  
-  .midasi span:before {
+}
+
+.midasi span:before {
     top: -34px;
     left: calc(50% - 34px);
     width: 68px;
     height: 40px;
     border: 2px dashed #c01d74;
     border-radius: 50vw 50vw 0 0;
-  }
-  
-  .midasi span:after {
+}
+
+.midasi span:after {
     position: absolute;
     top: 4px;
     left: calc(50% - 32px);
     width: 64px;
     height: 10px;
     background: #fff;
-  }
+}
 
 
 /*********************** 　　　　　共通　文字の大きさ　　　　　　 **************************/
@@ -230,7 +230,7 @@ h6 {
     margin: 10px auto;
 }
 
-.text-img img{
+.text-img img {
     margin: 0 auto;
 }
 
@@ -249,31 +249,33 @@ h6 {
     margin-top: 70px;
 }
 
-.yajirusi{
+.yajirusi {
     width: 60px;
     margin: 25px;
 }
 
-.yajirusi-text{
+.yajirusi-text {
     color: #4f4f4f;
 }
 
-.yajirusi-text{
+.yajirusi-text {
     display: flex;
     align-items: center;
     flex-flow: column;
 }
 
-.yajirusi-text p{
+.yajirusi-text p {
     padding: 1rem 2rem;
-   border: 3px dashed #c01d74;
-   border-radius: 20px;
+    border: 3px dashed #c01d74;
+    border-radius: 20px;
 }
+
 /*********************************  　　　　　　アイスクリーム編　　　　　　 **************************************/
 
-.ice{
+.ice {
     margin-bottom: 120px;
 }
+
 .ice h3 {
     color: #c01d74;
     text-align: center;
@@ -289,11 +291,11 @@ h6 {
     margin-bottom: 100px;
 }
 
-.number .text-img{
+.number .text-img {
     width: 140px;
 }
 
-.single{
+.single {
     margin-bottom: 18px;
 }
 
@@ -303,23 +305,23 @@ h6 {
     margin-bottom: 100px;
 }
 
-.size .text-img{
+.size .text-img {
     width: 140px;
 }
 
-.pop{
+.pop {
     margin-bottom: 25px;
 }
 
-.small{
+.small {
     margin-bottom: 30px;
 }
 
-.small-img{
+.small-img {
     width: 100px;
 }
 
-.pop-img{
+.pop-img {
     width: 150px;
 }
 
@@ -329,19 +331,19 @@ h6 {
     margin-bottom: 100px;
 }
 
-.box .text-img{
+.box .text-img {
     width: 140px;
 }
 
-.cup{
+.cup {
     margin-bottom: 65px;
 }
 
-.cone{
+.cone {
     margin-bottom: 45px;
 }
 
-.waffle-img{
+.waffle-img {
     width: 140px;
 }
 
@@ -379,7 +381,7 @@ h6 {
 
 /*********************************  　　　　　　ドリンク編　　　　　　 **************************************/
 
-.drink{
+.drink {
     margin-bottom: 120px;
 }
 
@@ -397,25 +399,25 @@ h6 {
     margin: 40px auto;
 }
 
-.cafe{
+.cafe {
     display: flex;
     flex-flow: column;
 }
 
-.cafes{
+.cafes {
     display: flex;
     justify-content: space-between;
     width: 20vw;
 }
 
-.cafes img{
+.cafes img {
     margin: 0;
 }
 
 
 /*********************************  　　　　　　ハンドパック編　　　　　　 **************************************/
 
-.handpack{
+.handpack {
     margin-bottom: 100px;
 }
 
@@ -426,44 +428,44 @@ h6 {
     margin: 20px;
 }
 
-.handpack .handpack-text{
+.handpack .handpack-text {
     text-align: center;
     color: #4f4f4f;
     margin-bottom: 20px;
 }
 
-.handpack .text-img{
+.handpack .text-img {
     width: 215.3px;
     height: 358.36px;
 }
 
-.painto{
+.painto {
     margin-bottom: 38px;
 }
 
-.painto-img{
+.painto-img {
     width: 100px;
 }
 
-.painto-box .yajirusi{
+.painto-box .yajirusi {
     margin-top: 17px;
 }
 
-.quoto{
+.quoto {
     margin-bottom: 28px;
 }
 
-.big{
+.big {
     margin-bottom: 30px;
 }
 
-.big-img{
+.big-img {
     width: 180px;
 }
 
-.kuttuku{
+.kuttuku {
     font-size: 20px;
-    color:#c01d74;
+    color: #c01d74;
     text-align: center;
     margin-top: 70px;
 }
@@ -483,7 +485,7 @@ footer {
 /*******************ここまですべてに共通のスタイル***********************/
 
 /*******************ここからすべてにスマホ用のスタイル***********************/
-@media all and (max-width:480px){
+@media all and (max-width:480px) {
     * {
         font-family: 'UD デジタル 教科書体 NK-B';
         box-sizing: border-box;
@@ -491,14 +493,14 @@ footer {
         padding: 0;
         list-style: none;
     }
-    
+
     a {
         text-decoration: none;
         color: #000;
     }
-    
+
     /*********************************  　　　　　　ヘッダー　　　　　　 **************************************/
-    
+
     header {
         height: 5vh;
         line-height: 5vh;
@@ -514,31 +516,31 @@ footer {
         color: #c01d74;
         width: 45vw;
     }
-    
+
     /*********************************  　　　　　　How to order　　　　　　 **************************************/
-    
+
     .title {
         background-color: #c01d74;
         color: #fff;
         height: 15vh;
-    
+
     }
-    
+
     .title h1 {
         font-size: 20px;
         text-align: center;
         font-family: 'Cherrybomb';
         padding: 0;
     }
-    
+
     .title h2 {
         font-size: 16px;
         text-align: center;
         padding: 0;
     }
-    
+
     /*********************************  　　　　　　最初の一文　　　　　　 **************************************/
-    
+
     .intro p {
         color: #192e77;
         text-align: center;
@@ -546,9 +548,9 @@ footer {
         margin: 40px;
         width: 75vw;
     }
-    
+
     /*********************************  　　　　　　　旗の装飾　　　　　　　 **************************************/
-    
+
     .flag {
         display: inline-block;
         position: relative;
@@ -569,7 +571,7 @@ footer {
         margin-left: 0;
         margin-bottom: 30px;
     }
-    
+
     .flag:after {
         position: absolute;
         content: '';
@@ -577,7 +579,7 @@ footer {
         height: 0px;
         z-index: 1;
     }
-    
+
     .flag:after {
         top: 0;
         right: 0;
@@ -585,23 +587,23 @@ footer {
         border-color: transparent #fff transparent transparent;
         border-style: solid;
     }
-    
+
     /*********************************  　　　　　　　囲み枠の装飾　　　　　　　 **************************************/
-    
+
     .midasi {
         position: relative;
         text-align: center;
         border: 2px solid #c01d74;
         background: #fff;
-      }
-      
-      .midasi:before,
-      .midasi:after {
+    }
+
+    .midasi:before,
+    .midasi:after {
         position: absolute;
         content: '';
-      }
-      
-      .midasi:before {
+    }
+
+    .midasi:before {
         top: -40px;
         left: calc(50% - 40px);
         width: 80px;
@@ -609,18 +611,18 @@ footer {
         border: 2px solid #c01d74;
         border-radius: 50%;
         background: #fff;
-      }
-      
-      .midasi:after {
+    }
+
+    .midasi:after {
         top: 4px;
         left: 4px;
         width: calc(100% - 8px);
         height: calc(100% - 8px);
         border: 2px dashed #c01d74;
         background: #fff;
-      }
-      
-      .midasi i {
+    }
+
+    .midasi i {
         font-size: 26px;
         line-height: 60px;
         position: absolute;
@@ -630,42 +632,42 @@ footer {
         width: 80px;
         height: 60px;
         text-align: center;
-      }
-      
-      .midasi span {
+    }
+
+    .midasi span {
         position: relative;
         z-index: 1;
         display: block;
         padding: 1rem;
-      }
-      
-      .midasi span:before,
-      .midasi span:after {
+    }
+
+    .midasi span:before,
+    .midasi span:after {
         position: absolute;
         content: '';
-      }
-      
-      .midasi span:before {
+    }
+
+    .midasi span:before {
         top: -34px;
         left: calc(50% - 34px);
         width: 68px;
         height: 40px;
         border: 2px dashed #c01d74;
         border-radius: 50vw 50vw 0 0;
-      }
-      
-      .midasi span:after {
+    }
+
+    .midasi span:after {
         position: absolute;
         top: 4px;
         left: calc(50% - 32px);
         width: 64px;
         height: 10px;
         background: #fff;
-      }
-    
-    
+    }
+
+
     /*********************** 　　　　　共通　文字の大きさ　　　　　　 **************************/
-    
+
     h4 {
         text-align: center;
         color: #192e77;
@@ -673,34 +675,34 @@ footer {
         font-family: 'Cherrybomb';
         margin-bottom: 15px;
     }
-    
+
     h5 {
         color: #c01d74;
         font-size: 14px;
         margin-bottom: 10px;
     }
-    
+
     h6 {
         text-align: center;
         color: #4f4f4f;
         font-size: 14px;
     }
-    
+
     /*********************** 　　　　　共通　画像の配置　　　　　　 **************************/
-    
+
     .image {
         width: 60px;
     }
-    
-    .text-img img{
+
+    .text-img img {
         margin: 0 auto;
     }
-    
+
     .text-img {
         display: flex;
         flex-direction: column;
     }
-    
+
     .texts-imgs {
         display: flex;
         flex-wrap: wrap;
@@ -710,33 +712,35 @@ footer {
         margin: 0 auto;
         margin-top: 40px;
     }
-    
-    .yajirusi{
+
+    .yajirusi {
         width: 40px;
         margin: 25px;
     }
-    
-    .yajirusi-text{
+
+    .yajirusi-text {
         color: #4f4f4f;
     }
-    
-    .yajirusi-text{
+
+    .yajirusi-text {
         display: flex;
         align-items: center;
         flex-flow: column;
     }
-    
-    .yajirusi-text p{
+
+    .yajirusi-text p {
         padding: 0.5rem 0.5rem;
-       border: 3px dashed #c01d74;
-       border-radius: 15px;
-       font-size: 10px;
+        border: 3px dashed #c01d74;
+        border-radius: 15px;
+        font-size: 10px;
     }
+
     /*********************************  　　　　　　アイスクリーム編　　　　　　 **************************************/
-    
-    .ice{
+
+    .ice {
         margin-bottom: 120px;
     }
+
     .ice h3 {
         color: #c01d74;
         text-align: center;
@@ -744,91 +748,92 @@ footer {
         margin: 10px;
         margin-bottom: 25px;
     }
-    
+
     /*********************** 　　　　　　個数をChoice!　　　　　　 **************************/
-    
+
     .number {
         margin-top: 40px;
         margin-bottom: 100px;
     }
-    
-    .number .text-img{
-     width: 70px;
+
+    .number .text-img {
+        width: 70px;
     }
 
-    .number img{
+    .number img {
         margin-top: 10px;
     }
-    
-    .single{
+
+    .single {
         margin-bottom: 18px;
     }
-    
+
     /*********************** 　　　　　　大きさをChoice!　　　　　　 **************************/
-    
+
     .size {
         margin-bottom: 100px;
     }
-    
-    .size .text-img{
+
+    .size .text-img {
         width: 70px;
     }
 
-    .size img{
+    .size img {
         margin-top: 10px;
     }
-    
-    .pop{
+
+    .pop {
         margin-bottom: 20px;
     }
-    
-    .small{
+
+    .small {
         margin-bottom: 20px;
     }
-    
-    .small-img{
+
+    .small-img {
         width: 50px;
     }
-    
-    .pop-img{
+
+    .pop-img {
         width: 75px;
     }
-    
+
     /*********************** 　　　　　　入れ物をChoice!　　　　　　 **************************/
-    
+
     .box {
         margin-bottom: 100px;
     }
-    
-    .box .text-img{
+
+    .box .text-img {
         width: 70px;
     }
-    
-    .cup{
+
+    .cup {
         margin-bottom: 55px;
     }
-    
-    .cone{
+
+    .cone {
         margin-bottom: 45px;
     }
-    
-    .waffle-img{
+
+    .waffle-img {
         width: 70px;
     }
-    
-    /*********************** 　　　　　　フレーバーをChoice!　　　　　　 **************************/
-    
 
-    .flavor-minibox{
+    /*********************** 　　　　　　フレーバーをChoice!　　　　　　 **************************/
+
+
+    .flavor-minibox {
         display: flex;
         flex-flow: column;
         align-items: center;
     }
+
     .flavor-button {
         display: flex;
         justify-content: center;
     }
-    
+
     .flavor p {
         color: #192e77;
         text-align: center;
@@ -837,29 +842,29 @@ footer {
         margin-top: 30px;
         width: 75vw;
     }
-    
+
     .flavor a {
         font-size: 16px;
-    font-weight: bold;
-    letter-spacing: 0.1em;
-    color: #fff;
-    width: 58vw;
-    line-height: 3.5vh;
-    display: inline-block;
-    border-radius: 10px;
-    background-color: #c01d74;
+        font-weight: bold;
+        letter-spacing: 0.1em;
+        color: #fff;
+        width: 58vw;
+        line-height: 3.5vh;
+        display: inline-block;
+        border-radius: 10px;
+        background-color: #c01d74;
     }
-    
+
     .flavor .button {
         background-color: #c01d74;
     }
-    
+
     /*********************************  　　　　　　ドリンク編　　　　　　 **************************************/
-    
-    .drink{
+
+    .drink {
         margin-bottom: 120px;
     }
-    
+
     .drink h3 {
         color: #c01d74;
         text-align: center;
@@ -867,91 +872,117 @@ footer {
         font-size: 20px;
         letter-spacing: 2px;
     }
-    
+
+    .drink-texts-imgs {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .sheik-soda {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .text-img {
+        display: flex;
+        align-items: center;
+        flex-flow: column;
+    }
+
     .drink .drink-text {
         text-align: center;
         color: #4f4f4f;
         margin: 40px auto;
         font-size: 14px;
+        display: flex;
+        align-items: center;
+        width: 75vw;
     }
 
-    .drink img{
-        width: 50px;
+    .drink img {
+        width: 70px;
     }
-    
-    .cafe{
+
+    .cafe {
         display: flex;
         flex-flow: column;
+        align-items: center;
     }
-    
-    .cafes{
+
+    .cafes {
         display: flex;
         justify-content: space-between;
-        width: 20vw;
+        align-items: center;
+        width: 50vw;
     }
-    
-    .cafes img{
+
+    .cafes img {
         margin: 0;
+        width: 70px;
+        margin-top: 10px;
     }
-    
-    
+
+
     /*********************************  　　　　　　ハンドパック編　　　　　　 **************************************/
-    
-    .handpack{
+
+    .handpack {
         margin-bottom: 100px;
     }
-    
+
     .handpack h3 {
         text-align: center;
         color: #c01d74;
         font-size: 30px;
         margin: 20px;
     }
-    
-    .handpack .handpack-text{
+
+    .handpack .handpack-text {
         text-align: center;
         color: #4f4f4f;
         margin-bottom: 20px;
     }
-    
-    .handpack .text-img{
+
+    .handpack .text-img {
         width: 215.3px;
         height: 358.36px;
     }
-    
-    .painto{
+
+    .painto {
         margin-bottom: 38px;
     }
-    
-    .painto-img{
+
+    .painto-img {
         width: 100px;
     }
-    
-    .painto-box .yajirusi{
+
+    .painto-box .yajirusi {
         margin-top: 17px;
     }
-    
-    .quoto{
+
+    .quoto {
         margin-bottom: 28px;
     }
-    
-    .big{
+
+    .big {
         margin-bottom: 30px;
     }
-    
-    .big-img{
+
+    .big-img {
         width: 180px;
     }
-    
-    .kuttuku{
+
+    .kuttuku {
         font-size: 20px;
-        color:#c01d74;
+        color: #c01d74;
         text-align: center;
         margin-top: 70px;
     }
-    
+
     /*********************************  　　　　　　フッター　　　　　　　 **************************************/
-    
+
     footer {
         height: 60px;
         background-color: #e5a7c9;
@@ -961,5 +992,5 @@ footer {
         letter-spacing: 2px;
         color: #c01d74;
     }
-    
+
 }
