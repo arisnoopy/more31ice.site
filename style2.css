@@ -930,24 +930,42 @@ footer {
 
     .handpack {
         margin-bottom: 100px;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
     }
 
     .handpack h3 {
         text-align: center;
         color: #c01d74;
-        font-size: 30px;
+        font-size: 20px;
         margin: 20px;
     }
 
+    .handpack-imgs{
+        display: flex;
+        align-items: center;
+        flex-flow: column;
+    }
     .handpack .handpack-text {
         text-align: center;
         color: #4f4f4f;
         margin-bottom: 20px;
+        font-size: 14px;
     }
 
     .handpack .text-img {
-        width: 215.3px;
-        height: 358.36px;
+        display: flex;
+        flex-flow: column;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 140px
+    }
+
+    .painto-quoto {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .painto {
@@ -955,7 +973,7 @@ footer {
     }
 
     .painto-img {
-        width: 100px;
+        width: 40px;
     }
 
     .painto-box .yajirusi {
@@ -971,11 +989,11 @@ footer {
     }
 
     .big-img {
-        width: 180px;
+        width: 100px;
     }
 
     .kuttuku {
-        font-size: 20px;
+        font-size: 14px;
         color: #c01d74;
         text-align: center;
         margin-top: 70px;
