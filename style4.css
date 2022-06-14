@@ -83,6 +83,8 @@ header a {
     padding: 40px;
 }
 
+/*********************************  　　　　　　共通　　　　　　 **************************************/
+
 h3 {
     color: #c01d74;
     font-size: 26px;
@@ -92,6 +94,13 @@ h3 {
 img{
     display: flex;
     align-items: center;
+}
+
+.sentences p{
+    color: #4f4f4f;
+    margin: 30px;
+    font-size: 18px;
+    letter-spacing: 2px;
 }
 
 /*********************************  　　　　　　全体　　　　　　 **************************************/
@@ -104,14 +113,6 @@ img{
 
 .time {
     margin-bottom: 10px;
-}
-
-.time p {
-    color: #4f4f4f;
-    margin: 30px;
-    font-size: 18px;
-    letter-spacing: 10px;
-    letter-spacing: 2px;
 }
 
 .time-img-box {
@@ -142,14 +143,6 @@ img{
     margin-bottom: 10px;
 }
 
-.cone p {
-    color: #4f4f4f;
-    margin: 30px;
-    font-size: 18px;
-    letter-spacing: 10px;
-    letter-spacing: 2px;
-}
-
 .cone img {
     width: 220px;
     margin: 55px;
@@ -169,14 +162,6 @@ img{
     margin-bottom: 10px;
 }
 
-.cup p {
-    color: #4f4f4f;
-    margin: 30px;
-    font-size: 18px;
-    letter-spacing: 10px;
-    letter-spacing: 2px;
-}
-
 .cup img {
     width: 270px;
     margin: 30px;
@@ -194,14 +179,6 @@ img{
 
 .writing {
     margin-bottom: 10px;
-}
-
-.writing p {
-    color: #4f4f4f;
-    margin: 30px;
-    font-size: 18px;
-    letter-spacing: 10px;
-    letter-spacing: 2px;
 }
 
 .writing img {
@@ -293,19 +270,36 @@ footer {
     color: #192e77;
     text-align: center;
     font-size: 11px;
-    padding: 40px;
+    padding: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 80vw;
 }
+
+/*********************************  　　　　　　共通　　　　　　 **************************************/
 
 h3 {
     color: #c01d74;
-    font-size: 16px;
-    margin: 30px;
-    width: 75vw;
+    font-size: 13px;
+    margin: 0px;
 }
 
 img{
     display: flex;
     align-items: center;
+}
+
+.sentences p{
+    letter-spacing: 2px;
+    color: #4f4f4f;
+    margin: 10px;
+    margin-right: 20px;
+    font-size: 11px;
+    text-align: left;
+    width: 40vw;
+}
+.sentences{
+    margin-left: 0;
 }
 
 /*********************************  　　　　　　全体　　　　　　 **************************************/
@@ -321,118 +315,81 @@ img{
 
 .time {
     margin-bottom: 10px;
-}
-
-.time p {
-    color: #4f4f4f;
-    margin: 30px;
-    font-size: 11px;
-    letter-spacing: 10px;
-    letter-spacing: 2px;
-    width: 50vw;
-    text-align: left;
+    width: 75vw;
 }
 
 .time-img-box {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: opx;
+    margin: 0 auto;
 }
-
-/*
-.box img{
-    width: 200px;
-}
-*/
 
 .time-box {
     display: flex;
-    justify-content: center;
+    width: 75vw;
     align-items: center;
-    width: 65vw;
     margin: 0 auto;
+    padding: 0 auto;
+    margin-bottom: 30px;
 }
 
 /*********************************  　　　　　　コーンでの持ち帰り　　　　　　 **************************************/
 
 .cone {
     margin-bottom: 10px;
-}
-
-.cone p {
-    color: #4f4f4f;
-    margin: 30px;
-    font-size: 11px;
-    letter-spacing: 10px;
-    letter-spacing: 2px;
+    width: 75vw;
 }
 
 .cone img {
-    width: 70px;
+    width: 90px;
     margin: 0px;
 }
 
 .cone-box {
     display: flex;
-    justify-content: center;
+    width: 75vw;
     align-items: center;
-    width: 65vw;
     margin: 0 auto;
+    margin-bottom: 30px;
 }
 
 /*********************************  　　　　　　カップつけれるよ　　　　　　 **************************************/
 
 .cup {
     margin-bottom: 10px;
-}
-
-.cup p {
-    color: #4f4f4f;
-    margin: 30px;
-    font-size: 11px;
-    letter-spacing: 10px;
-    letter-spacing: 2px;
+    width: 75vw;
 }
 
 .cup img {
-    width: 150px;
+    width: 130px;
     margin: 0px;
 }
 
 .cup-box {
     display: flex;
-    justify-content: center;
+    width: 75vw;
     align-items: center;
-    width: 65vw;
     margin: 0 auto;
+    margin-bottom: 30px;
 }
 
 /*********************************  　　　　　　フレーバーかけるよ　　　　　　 **************************************/
 
 .writing {
     margin-bottom: 10px;
-}
-
-.writing p {
-    color: #4f4f4f;
-    margin: 30px;
-    font-size: 11px;
-    letter-spacing: 10px;
-    letter-spacing: 2px;
+    width: 75vw;
 }
 
 .writing img {
-    width: 100px;
+    width: 90px;
     margin: 0px;
 }
 
 .writing-box {
     display: flex;
-    justify-content: center;
+    width: 75vw;
     align-items: center;
-    width: 65vw;
     margin: 0 auto;
 }
 
