@@ -269,10 +269,14 @@ footer {
     }
 
     header a {
-        font-size: 1vw;
+        font-size: 2vw;
         font-weight: bold;
         color: #c01d74;
         width: 45vw;
+    }
+
+    header p{
+        line-height: 5vh;
     }
 
     /***********最初の画像*************/
