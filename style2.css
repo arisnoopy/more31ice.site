@@ -587,7 +587,6 @@ footer {
     .title {
         background-color: #c01d74;
         color: #fff;
-        height: 15vh;
         padding: auto auto;
 
     }
@@ -603,6 +602,7 @@ footer {
         font-size: 16px;
         text-align: center;
         padding: 0;
+        padding-bottom: 20px;
     }
 
     /*********************************  　　　　　　最初の一文　　　　　　 **************************************/

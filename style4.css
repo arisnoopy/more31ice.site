@@ -252,7 +252,6 @@ footer {
 .firstview {
         background-color: #c01d74;
         color: #fff;
-        height: 15vh;
         padding: auto auto;
     }
 
@@ -267,12 +266,9 @@ footer {
         font-size: 16px;
         text-align: center;
         padding: 0;
+        padding-bottom: 20px;
     }
 
-    .firstview-box{
-        height: 15vh;
-        margin: auto auto;
-    }
 
 .intro p {
     color: #192e77;
