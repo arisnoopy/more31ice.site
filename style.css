@@ -44,6 +44,7 @@ header p {
     font-weight: bold;
     font-family: 'Cherrybomb';
     width: 27vw;
+    line-height: 5vh;
 }
 
 header a {
@@ -51,6 +52,7 @@ header a {
     font-weight: bold;
     color: #c01d74;
     width: 55vw;
+    line-height: 5vh;
 }
 
 /***********共通デザイン*************/
@@ -170,6 +172,12 @@ h3 {
     margin: 0 auto;
 }
 
+.orderbox{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+
 /*********** Flavor *************/
 
 .flavor {
@@ -183,6 +191,7 @@ h3 {
     margin-top: 24px;
     text-align: center;
     color: #192e77;
+    width: 65vw;
 }
 
 
@@ -190,6 +199,13 @@ h3 {
 .flavor img {
     width: 250px;
     margin: 40px;
+}
+
+.flavor-box{
+    display: flex;
+        flex-wrap: wrap;
+        flex-flow: column;
+        align-items: center;
 }
 
 
@@ -233,6 +249,12 @@ footer {
     * {
         margin: 0;
         padding: 0;
+        font-family: 'Kosugi Maru', sans-serif;
+        font-weight: bold;
+    }
+
+    p{
+        line-height: 20px;
     }
 
     /***********ヘッダー*************/
@@ -296,7 +318,7 @@ footer {
 
 
     .intro p {
-        font-size: 14px;
+        font-size: 11px;
         width: 80vw;
     }
 
@@ -334,20 +356,14 @@ footer {
     /*********** How to order *************/
 
 .order {
+    padding: 40px 0;
     text-align: center;
     background-color: #fbe4ee;
     background-size: cover;
 }
 
-.order-box{
-    display: flex;
-        flex-wrap: wrap;
-        flex-flow: column;
-        align-items: center;
-}
-
 .order p {
-    font-size: 14px;
+    font-size: 11px;
     margin-top: 24px;
     text-align: center;
     color: #192e77;
@@ -389,15 +405,9 @@ footer {
     background-color: #fff;
 }
 
-.flavor-box{
-    display: flex;
-        flex-wrap: wrap;
-        flex-flow: column;
-        align-items: center;
-}
 
 .flavor p {
-    font-size: 14px;
+    font-size: 11px;
     margin: 20px;
     text-align: center;
     color: #192e77;
@@ -427,7 +437,7 @@ footer {
 }
 
 .infomation p {
-    font-size: 14px;
+    font-size: 11px;
     margin-top: 24px;
     text-align: center;
     color: #192e77;

@@ -487,11 +487,14 @@ footer {
 /*******************ここからすべてにスマホ用のスタイル***********************/
 @media all and (max-width:480px) {
     * {
-        font-family: 'UD デジタル 教科書体 NK-B';
-        box-sizing: border-box;
         margin: 0;
         padding: 0;
-        list-style: none;
+        font-family: 'Kosugi Maru', sans-serif;
+        font-weight: bold;
+    }
+
+    p{
+        line-height: 20px;
     }
 
     a {
@@ -515,6 +518,10 @@ footer {
         font-weight: bold;
         color: #c01d74;
         width: 45vw;
+    }
+
+    header p{
+        line-height: 5vh;
     }
 
     /*********************************  　　　　　　How to order　　　　　　 **************************************/
@@ -544,8 +551,8 @@ footer {
     .intro p {
         color: #192e77;
         text-align: center;
-        font-size: 14px;
-        margin: 40px;
+        font-size: 11px;
+        margin: 20px auto;
         width: 75vw;
     }
 
@@ -559,9 +566,9 @@ footer {
         line-height: 5vh;
         /*高さ*/
         text-align: center;
-        padding: 0 30px 0 20px;
+        padding: 0 30px 0 15px;
         /*文字の左右の余白*/
-        font-size: 18px;
+        font-size: 13px;
         /*文字サイズ*/
         background: #192e77;
         /*背景色*/
@@ -569,7 +576,7 @@ footer {
         /*文字色*/
         box-sizing: border-box;
         margin-left: 0;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 
     .flag:after {
@@ -582,8 +589,8 @@ footer {
 
     .flag:after {
         top: 0;
-        right: 0;
-        border-width: 2.5vh 15px 2.5vh 0px;
+        right: -2px;
+        border-width: 2.6vh 15px 2.6vh 0px;
         border-color: transparent #fff transparent transparent;
         border-style: solid;
     }
@@ -623,7 +630,7 @@ footer {
     }
 
     .midasi i {
-        font-size: 26px;
+        font-size: 22px;
         line-height: 60px;
         position: absolute;
         z-index: 2;
@@ -685,7 +692,7 @@ footer {
     h6 {
         text-align: center;
         color: #4f4f4f;
-        font-size: 14px;
+        font-size: 12px;
     }
 
     /*********************** 　　　　　共通　画像の配置　　　　　　 **************************/
@@ -714,7 +721,7 @@ footer {
     }
 
     .yajirusi {
-        width: 40px;
+        width: 30px;
         margin: 25px;
     }
 
@@ -729,7 +736,7 @@ footer {
     }
 
     .yajirusi-text p {
-        padding: 0.5rem 0.5rem;
+        padding: 0.2rem 0.3rem;
         border: 3px dashed #c01d74;
         border-radius: 15px;
         font-size: 10px;
@@ -837,21 +844,21 @@ footer {
     .flavor p {
         color: #192e77;
         text-align: center;
-        font-size: 14px;
+        font-size: 11px;
         margin-bottom: 20px;
-        margin-top: 30px;
+        margin-top: 20px;
         width: 75vw;
     }
 
     .flavor a {
-        font-size: 16px;
+        font-size: 13px;
         font-weight: bold;
         letter-spacing: 0.1em;
         color: #fff;
-        width: 58vw;
+        width: 56vw;
         line-height: 3.5vh;
         display: inline-block;
-        border-radius: 10px;
+        border-radius: 8px;
         background-color: #c01d74;
     }
 
@@ -883,7 +890,7 @@ footer {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 30px;
+        margin-bottom: 40px;
     }
 
     .text-img {
@@ -895,14 +902,14 @@ footer {
     .drink .drink-text {
         text-align: center;
         color: #4f4f4f;
-        margin: 40px auto;
-        font-size: 14px;
+        margin: 20px auto;
+        font-size: 11px;
         display: flex;
         align-items: center;
         width: 75vw;
     }
 
-    .drink img {
+    .drink image {
         width: 70px;
     }
 
@@ -917,6 +924,7 @@ footer {
         justify-content: space-between;
         align-items: center;
         width: 50vw;
+        margin-top: 10px;
     }
 
     .cafes img {
@@ -928,17 +936,22 @@ footer {
 
     /*********************************  　　　　　　ハンドパック編　　　　　　 **************************************/
 
-    .handpack {
-        margin-bottom: 100px;
+.handpack{
+    margin-bottom: 30px;
+}
+
+    .handpack-minibox {
+        margin-bottom: 0px;
         display: flex;
         flex-flow: column;
         align-items: center;
     }
 
+    
     .handpack h3 {
         text-align: center;
         color: #c01d74;
-        font-size: 20px;
+        font-size: 14px;
         margin: 20px;
     }
 
@@ -951,7 +964,7 @@ footer {
         text-align: center;
         color: #4f4f4f;
         margin-bottom: 20px;
-        font-size: 14px;
+        font-size: 11px;
     }
 
     .handpack .text-img {
@@ -959,13 +972,23 @@ footer {
         flex-flow: column;
         flex-wrap: wrap;
         align-items: center;
-        width: 140px
+        width: 140px;
+        margin-bottom: 0;
+        height: 280px;
+    }
+
+    .handpack .texts-imgs{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
     }
 
     .painto-quoto {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        width: 75vw;
+        margin-bottom: 0px;
     }
 
     .painto {
@@ -985,7 +1008,7 @@ footer {
     }
 
     .big {
-        margin-bottom: 30px;
+        margin-bottom: 10px;
     }
 
     .big-img {
@@ -996,17 +1019,17 @@ footer {
         font-size: 14px;
         color: #c01d74;
         text-align: center;
-        margin-top: 70px;
+        margin: 0 auto;
     }
 
     /*********************************  　　　　　　フッター　　　　　　　 **************************************/
 
     footer {
-        height: 60px;
+        height: 4vh;
         background-color: #e5a7c9;
-        line-height: 60px;
+        line-height: 4vh;
         text-align: center;
-        font-size: 18px;
+        font-size: 14px;
         letter-spacing: 2px;
         color: #c01d74;
     }
