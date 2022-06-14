@@ -329,11 +329,19 @@ img{
     display: flex;
     width: 75vw;
     align-items: center;
+    justify-content: start;
     margin: 0 auto;
     padding: 0 auto;
     margin-bottom: 30px;
 }
 
+.paperbag{
+    width: 70px;
+}
+
+.varietybox{
+    width: 100px;
+}
 /*********************************  　　　　　　コーンでの持ち帰り　　　　　　 **************************************/
 
 .cone {
@@ -348,6 +356,7 @@ img{
 
 .cone-box {
     display: flex;
+    justify-content: start;
     width: 75vw;
     align-items: center;
     margin: 0 auto;
@@ -372,6 +381,7 @@ img{
     align-items: center;
     margin: 0 auto;
     margin-bottom: 30px;
+    justify-content: start;
 }
 
 /*********************************  　　　　　　フレーバーかけるよ　　　　　　 **************************************/
@@ -391,6 +401,7 @@ img{
     width: 75vw;
     align-items: center;
     margin: 0 auto;
+    justify-content: start;
 }
 
 /*********************************  　　　　　　フッター　　　　　　 **************************************/
