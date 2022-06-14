@@ -209,7 +209,7 @@ footer {
     }
 
     header a {
-        font-size: 1vw;
+        font-size: 3vw;
         font-weight: bold;
         color: #c01d74;
         width: 45vw;
@@ -217,14 +217,15 @@ footer {
 
     header p{
         line-height: 5vh;
+        font-size: 3vw;
     }
-    
     /*********************************  　　　　　　上の部分　　　　　　　 **************************************/
 
     .firstview {
         background-color: #c01d74;
         color: #fff;
         height: 15vh;
+        padding: auto auto;
 
     }
 

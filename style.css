@@ -269,7 +269,7 @@ footer {
     }
 
     header a {
-        font-size: 2vw;
+        font-size: 3vw;
         font-weight: bold;
         color: #c01d74;
         width: 45vw;
@@ -277,6 +277,7 @@ footer {
 
     header p{
         line-height: 5vh;
+        font-size: 3vw;
     }
 
     /***********最初の画像*************/
@@ -292,7 +293,7 @@ footer {
     /***********共通デザイン*************/
 
     h1 {
-        font-size: 20px;
+        font-size: 19px;
         color: #c01d74;
         letter-spacing: 0.01em;
         font-family: 'Cherrybomb';
@@ -369,6 +370,7 @@ footer {
 .order p {
     font-size: 11px;
     margin-top: 24px;
+    margin-bottom: 10px;
     text-align: center;
     color: #192e77;
     width: 75vw;
@@ -390,7 +392,7 @@ footer {
 /*********** ボタンづくり *************/
 
 .button {
-    font-size: 16px;
+    font-size: 13px;
     font-weight: bold;
     letter-spacing: 0.1em;
     color: #fff;
@@ -399,6 +401,7 @@ footer {
     display: inline-block;
     border-radius: 10px;
     background-color: #c01d74;
+    margin-top: 10px;
 }
 
 /*********** Flavor *************/
