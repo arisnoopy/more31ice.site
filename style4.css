@@ -123,11 +123,13 @@ img{
     margin: 65px;
 }
 
-/*
-.box img{
-    width: 200px;
+.paperbag{
+    width: 140px;
 }
-*/
+
+.varietybox{
+    width: 190px;
+}
 
 .time-box {
     display: flex;
@@ -236,7 +238,7 @@ footer {
         font-size: 3vw;
         font-weight: bold;
         color: #c01d74;
-        width: 45vw;
+        width: 40vw;
     }
 
     header p{

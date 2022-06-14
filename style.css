@@ -29,7 +29,7 @@ header {
     background-color: rgba(255, 255, 255, 1);
     color: #c01d74;
     margin-top: 0;
-    z-index: 1;
+    z-index: 4;
 }
 
 header ul {
@@ -44,7 +44,6 @@ header p {
     font-weight: bold;
     font-family: 'Cherrybomb';
     width: 27vw;
-    line-height: 5vh;
 }
 
 header a {
@@ -52,7 +51,6 @@ header a {
     font-weight: bold;
     color: #c01d74;
     width: 55vw;
-    line-height: 5vh;
 }
 
 /***********共通デザイン*************/
@@ -141,6 +139,7 @@ h3 {
     display: inline-block;
     border-radius: 16px;
     background-color: #c01d74;
+    margin-top: 15px;
 }
 
 /*********** How to order *************/
@@ -155,8 +154,10 @@ h3 {
 .order p {
     font-size: 18px;
     margin-top: 24px;
+    margin-bottom: 20px;
     text-align: center;
     color: #192e77;
+    width: 65vw;
 }
 
 .order-content img {
@@ -197,7 +198,7 @@ h3 {
 
 
 .flavor img {
-    width: 250px;
+    width: 11vw;
     margin: 40px;
 }
 
@@ -265,14 +266,14 @@ footer {
         padding: 0 5vw;
         position: fixed;
         width: 100vw;
-        z-index: 1;
+        z-index: 4;
     }
 
     header a {
         font-size: 3vw;
         font-weight: bold;
         color: #c01d74;
-        width: 45vw;
+        width: 40vw;
     }
 
     header p{

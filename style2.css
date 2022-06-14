@@ -214,7 +214,8 @@ h4 {
 h5 {
     color: #c01d74;
     font-size: 24px;
-    margin-bottom: 10px;
+    margin-bottom: 30.8px;
+    text-align: center;
 }
 
 h6 {
@@ -399,19 +400,58 @@ h6 {
     margin: 40px auto;
 }
 
+.drink .text-img {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.drink-texts-imgs {
+    display: flex;
+    justify-content: space-between;
+    width: 65vw;
+    margin: 0 auto;
+}
+
+.sheik-soda {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sheik-soda .text-img {
+    width: 220px;
+}
+.sheik{
+    margin-right: 5vw;
+}
+
+.soda{
+    margin-right: 7.5vw;
+}
+
 .cafe {
     display: flex;
     flex-flow: column;
+    align-items: center;
 }
 
 .cafes {
     display: flex;
     justify-content: space-between;
-    width: 20vw;
+    align-items: center;
 }
 
 .cafes img {
     margin: 0;
+}
+
+.capuchino {
+    margin-right: 11vw;
+}
+
+.cafebrasuto h5 {
+    right: 5vw;
+    margin-bottom: 10px;
 }
 
 
@@ -433,10 +473,23 @@ h6 {
     color: #4f4f4f;
     margin-bottom: 20px;
 }
+.handpack .texts-imgs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65vw;
+    height: auto;
+}
 
 .handpack .text-img {
     width: 215.3px;
     height: 358.36px;
+}
+
+.painto-quoto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .painto {
@@ -445,6 +498,9 @@ h6 {
 
 .painto-img {
     width: 100px;
+}
+.painto-box{
+    margin-right: 11vw;
 }
 
 .painto-box .yajirusi {
@@ -467,7 +523,7 @@ h6 {
     font-size: 20px;
     color: #c01d74;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 100px;
 }
 
 /*********************************  　　　　　　フッター　　　　　　　 **************************************/
@@ -485,6 +541,7 @@ footer {
 /*******************ここまですべてに共通のスタイル***********************/
 
 /*******************ここからすべてにスマホ用のスタイル***********************/
+
 @media all and (max-width:480px) {
     * {
         margin: 0;
@@ -493,7 +550,7 @@ footer {
         font-weight: bold;
     }
 
-    p{
+    p {
         line-height: 20px;
     }
 
@@ -517,10 +574,10 @@ footer {
         font-size: 3vw;
         font-weight: bold;
         color: #c01d74;
-        width: 45vw;
+        width: 40vw;
     }
 
-    header p{
+    header p {
         line-height: 5vh;
         font-size: 3vw;
     }
@@ -893,6 +950,16 @@ footer {
         justify-content: space-between;
         align-items: center;
         margin-bottom: 40px;
+        width: 70vw;
+    }
+
+    .sheik-soda .text-img {
+        margin: 0;
+        width: 120px;
+    }
+
+    .sheik {
+        margin-right: 10px;
     }
 
     .text-img {
@@ -923,9 +990,9 @@ footer {
 
     .cafes {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
-        width: 50vw;
+        width: 75vw;
         margin-top: 10px;
     }
 
@@ -935,12 +1002,16 @@ footer {
         margin-top: 10px;
     }
 
+    .cafebrasuto{
+        width: 70vw;
+    }
+
 
     /*********************************  　　　　　　ハンドパック編　　　　　　 **************************************/
 
-.handpack{
-    margin-bottom: 30px;
-}
+    .handpack {
+        margin-bottom: 30px;
+    }
 
     .handpack-minibox {
         margin-bottom: 0px;
@@ -949,7 +1020,7 @@ footer {
         align-items: center;
     }
 
-    
+
     .handpack h3 {
         text-align: center;
         color: #c01d74;
@@ -957,11 +1028,12 @@ footer {
         margin: 20px;
     }
 
-    .handpack-imgs{
+    .handpack-imgs {
         display: flex;
         align-items: center;
         flex-flow: column;
     }
+
     .handpack .handpack-text {
         text-align: center;
         color: #4f4f4f;
@@ -979,7 +1051,7 @@ footer {
         height: 280px;
     }
 
-    .handpack .texts-imgs{
+    .handpack .texts-imgs {
         display: flex;
         flex-flow: column;
         align-items: center;
@@ -1003,6 +1075,10 @@ footer {
 
     .painto-box .yajirusi {
         margin-top: 17px;
+    }
+
+    .painto-box{
+        margin-right: 0;
     }
 
     .quoto {
