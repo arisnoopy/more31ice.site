@@ -30,6 +30,7 @@ header {
     color: #c01d74;
     margin-top: 0;
     z-index: 4;
+    transition : 0.3s;
 }
 
 header ul {
@@ -51,6 +52,7 @@ header a {
     font-weight: bold;
     color: #c01d74;
     width: 55vw;
+    transition : 0.3s;
 }
 
 /***********共通デザイン*************/
@@ -140,10 +142,12 @@ h3 {
     border-radius: 16px;
     background-color: #c01d74;
     margin-top: 15px;
+    transition : 0.3s;
 }
 
 header a:hover {
     color:#192e77 ;
+    transition : 0.5s;
   }
 
 .order a:hover {
