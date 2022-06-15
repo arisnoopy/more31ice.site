@@ -53,6 +53,10 @@ header a {
     width: 55vw;
 }
 
+header a:hover {
+    color:#192e77 ;
+  }
+
 /*********************************  　　　　　　How to order　　　　　　 **************************************/
 
 .title {
@@ -379,6 +383,10 @@ h6 {
 .flavor .button {
     background-color: #c01d74;
 }
+
+.flavor a:hover {
+    background-color:#192e77 ;
+  }
 
 /*********************************  　　　　　　ドリンク編　　　　　　 **************************************/
 
