@@ -12,6 +12,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="/js/main.js"></script>
+  <link rel="stylesheet" href="modaal.min.css">
+  <script src="/js/modaal.min.js"></script>
   <title>Flavor</title>
 </head>
 
@@ -45,27 +49,129 @@
   <section class="flavor">
     <h3>STANDARD FRAVOR</h3>
     <h4>一年中あるフレーバー</h4>
-    <div class="ices">
-      <div class="aloha">
-        <img src="imgs/pop.jpg" alt="">
-        <p>ポッピングシャワー</p>
+
+    <div class="ices" id="news">
+
+      <div class="modal">
+        <div class="aloha modal-box">
+          <a href="#news1" class="modal-button">
+            <img src="imgs/pop.jpg" alt="" class="banner">
+            <p>ポッピングシャワー</p>
+          </a>
+        </div>
+        <div id="news1" style="display:none;" class="news">
+          <img src="imgs/pop.jpg" alt="" class="banner">
+          <h5>ポッピングシャワー</h5>
+          <p>
+            不動の人気No.1フレーバー!<br>
+            パチパチキャンディーが入っており，見た目も味も楽しいアイス！ホワイトの部分はホワイトチョコレート，グリーンの部分はうすいミント味
+          </p>
+          <h6>おすすめ度 ❤ ❤ ❤ ❤ <span>❤</span></h6>
+          <div class="osusume">
+            <img src="imgs/店員さん.jpg" alt="" class="tenninn">
+            <p class="comment">
+             あまりミントの風味は強くないため，ミントが苦手な方でも食べやすい味だよ！
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="aloha">
-        <img src="imgs/lovepo.jpg" alt="">
-        <p>ラブポーションサーティワン</p>
+
+      <div class="modal">
+        <div class="aloha modal-box">
+          <a href="#news2" class="modal-button">
+            <img src="imgs/lovepo.jpg" alt="" class="banner">
+            <p>ラブポーションサーティワン</p>
+          </a>
+        </div>
+        <div id="news2" style="display:none;" class="news">
+          <img src="imgs/lovepo.jpg" alt="" class="banner">
+          <h5>ラブポーションサーティワン</h5>
+          <p>
+            可愛さ満点サーティワンらしさ全開フレーバー!<br>
+            甘酸っぱいラズベリーリボンとハート形チョコレートにきゅんとしてしまう味わい！ホワイトの部分はホワイトチョコレート，うすピンクの部分はラズベリー味
+          </p>
+          <h6>おすすめ度 ❤ ❤ ❤ ❤ ❤<span></span></h6>
+          <div class="osusume">
+            <img src="imgs/店員さん.jpg" alt="" class="tenninn">
+            <p class="comment">
+             実は，ハート形のチョコのなかにもラズベリーソースが入っているよ！ラズベリーがふんだんに使われていてベリー好きにはたまらない！私のイチオシフレーバー❤
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="aloha">
-        <img src="imgs/rokky.jpg" alt="">
-        <p>ロッキーロード</p>
+
+      <div class="modal">
+        <div class="aloha modal-box">
+          <a href="#news3" class="modal-button">
+            <img src="imgs/rokky.jpg" alt="" class="banner">
+                 <p>ロッキーロード</p>
+          </a>
+        </div>
+        <div id="news3" style="display:none;" class="news">
+          <img src="imgs/rokky.jpg" alt="" class="banner">
+          <h5>ロッキーロード</h5>
+          <p>
+            不動の人気No.1フレーバー!<br>
+            アーモンドとマシュマロが入っており，雪解けのロッキー山脈を再現したアイス！基本のアイスはとっても濃厚なチョコレート味！
+          </p>
+          <h6>おすすめ度 ❤ ❤ ❤ ❤ ❤<span></span></h6>
+          <div class="osusume">
+            <img src="imgs/店員さん.jpg" alt="" class="tenninn">
+            <p class="comment">
+             マシュマロが入っているのはロッキーロードだけ！ゴロゴロでてくるアーモンドもうれしい！チョコとナッツ好きな方ぜひ召し上がれ！
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="aloha">
-        <img src="imgs/banasuto.jpg" alt="">
-        <p>バナナアンドストロベリー</p>
+    
+      <div class="modal">
+        <div class="aloha modal-box">
+          <a href="#news4" class="modal-button">
+            <img src="imgs/banasuto.jpg" alt="" class="banner">
+                 <p>バナナアンドストロベリー</p>
+          </a>
+        </div>
+        <div id="news4" style="display:none;" class="news">
+          <img src="imgs/banasuto.jpg" alt="" class="banner">
+          <h5>バナナアンドストロベリー</h5>
+          <p>
+            果物2種をかけ合わせたフレーバー!<br>
+          　バナナとストロベリーを一度に味わえる素敵なアイス！イエローの部分はバナナ味，うすピンクの部分はストロベリー味，リボンもストロベリー味
+          </p>
+          <h6>おすすめ度 ❤ ❤ ❤  <span>❤ ❤</span></h6>
+          <div class="osusume">
+            <img src="imgs/店員さん.jpg" alt="" class="tenninn">
+            <p class="comment">
+             フルーティー感がすごい！バナナ味のフレーバーはこれだけなので，バナナ好きなあなたにオススメ！
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="aloha">
-        <img src="imgs/pudo.jpg" alt="">
-        <p>チョップドチョコレート</p>
+    
+      <div class="modal">
+        <div class="aloha modal-box">
+          <a href="#news5" class="modal-button">
+            <img src="imgs/pudo.jpg" alt="" class="banner">
+                 <p>チョップドチョコレート</p>
+          </a>
+        </div>
+        <div id="news5" style="display:none;" class="news">
+          <img src="imgs/pudo.jpg" alt="" class="banner">
+          <h5>チョップドチョコレート</h5>
+          <p>
+            パリパリ感がたまらないフレーバー!<br>
+            砕いたチョコレートが入っており，食感を楽しめるアイス！うすいチョコレート色の部分はミルクチョコレート味
+          </p>
+          <h6>おすすめ度 ❤ ❤ ❤ ❤ <span>❤</span></h6>
+          <div class="osusume">
+            <img src="imgs/店員さん.jpg" alt="" class="tenninn">
+            <p class="comment">
+             食感だけでなく味も最高のフレーバー！ミルク感たっぷりのチョコレート味がたまらない！
+            </p>
+          </div>
+        </div>
       </div>
+
     </div>
   </section>
 
@@ -73,10 +179,31 @@
     <h3>FLAVOR OF THE MONTH</h3>
     <h4>今月のオススメフレーバー</h4>
     <div class="ices">
-      <div class="aloha">
-        <img src="imgs/aloha.png" alt="">
-        <p>アロハ チョコクッキー</p>
+
+      <div class="modal">
+        <div class="aloha modal-box">
+          <a href="#news6" class="modal-button">
+            <img src="imgs/aloha.png" alt="" class="banner">
+                 <p>アロハ チョコクッキー</p>
+          </a>
+        </div>
+        <div id="news6" style="display:none;" class="news">
+          <img src="imgs/aloha.png" alt="" class="banner">
+          <h5>アロハ チョコクッキー</h5>
+          <p>
+            ハワイをイメージした，今月のオススメフレーバー!<br>
+            クッキーやチョコレートソースが入っており，お菓子をかじっているかのようなアイス！ホワイトの部分はマカダミアナッツ味，うすいチョコレート色の部分はミルクチョコレート味
+          </p>
+          <h6>おすすめ度 ❤ ❤ ❤ ❤ <span>❤</span></h6>
+          <div class="osusume">
+            <img src="imgs/店員さん.jpg" alt="" class="tenninn">
+            <p class="comment">
+             STANDARD FLAVORかなと思うほど食べやすい味！あまり冒険に出たくないけど季節限定のフレーバーを楽しみたい方にオススメ！
+            </p>
+          </div>
+        </div>
       </div>
+
     </div>
   </section>
 
@@ -84,46 +211,259 @@
     <h3>SEASON FLAVOR</h3>
     <h4>季節限定のフレーバー</h4>
     　<div class="ices">
-      <div class="aloha">
-        <img src="imgs/MO.jpg" alt="">
-        <p>キャラメル抹茶オレ</p>
+
+      <div class="modal">
+        <div class="aloha modal-box">
+          <a href="#news12" class="modal-button">
+            <img src="imgs/amaro.jpg" alt="" class="banner">
+                 <p>アマーロアフォガート</p>
+          </a>
+        </div>
+        <div id="news12" style="display:none;" class="news">
+          <img src="imgs/amaro.jpg" alt="" class="banner">
+          <h5>アマーロアフォガート</h5>
+          <p>
+            ちょっと大人なコーヒーフレーバー!<br>
+            バニラに本格的なコーヒーソルベ，エスプレッソソースまで入っており，アフォガートを忠実に再現したフレーバ！ブラウンの部分はコーヒーソルベ，ホワイトの部分はバニラ味
+          </p>
+          <h6>おすすめ度 ❤ ❤ ❤ ❤ <span>❤</span></h6>
+          <div class="osusume">
+            <img src="imgs/店員さん.jpg" alt="" class="tenninn">
+            <p class="comment">
+             コーヒーがかなり本格的なため，大人のお客様におすすめ！コーヒー部分はソルベなのでさっぱりとお召し上がりいだたけます！
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="aloha">
-        <img src="imgs/chip.jpg" alt="">
-        <p>チョコレートチップ</p>
+
+      <div class="modal">
+        <div class="aloha modal-box">
+          <a href="#news13" class="modal-button">
+            <img src="imgs/ogura.jpg" alt="" class="banner">
+                 <p>小倉トースト<br>～大納言あずき使用～</p>
+          </a>
+        </div>
+        <div id="news13" style="display:none;" class="news">
+          <img src="imgs/ogura.jpg" alt="" class="banner">
+          <h5>小倉トースト<br>～大納言あずき使用～</h5>
+          <p>
+            まさに小倉トーストなフレーバー!<br>
+            まるで香ばしい焼きたてトーストをかじってるよう！バター風味のソースもはいっており，小倉トーストの再現度MAX！あずき色の部分はこしあん味，ベージュの部分はトースト味
+          </p>
+          <h6>おすすめ度 ❤ ❤ ❤ ❤ ❤<span></span></h6>
+          <div class="osusume">
+            <img src="imgs/店員さん.jpg" alt="" class="tenninn">
+            <p class="comment">
+             アイスであることを忘れてしまうほど，小倉トーストの再現度がすごい！あんこ嫌いでもパクパク食べちゃうおいしさ！
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="aloha">
-        <img src="imgs/purettu.png" alt="">
-        <p>ワンダフルキャラメル<br>プレッツェル</p>
+
+      <div class="modal">
+        <div class="aloha modal-box">
+          <a href="#news14" class="modal-button">
+            <img src="imgs/sunset.png" alt="" class="banner">
+                 <p>サンセットサーフィン</p>
+          </a>
+        </div>
+        <div id="news14" style="display:none;" class="news">
+          <img src="imgs/sunset.png" alt="" class="banner">
+          <h5>サンセットサーフィン</h5>
+          <p>
+            夏らしいフレーバー!<br>
+            夕日が差し込む海を表現！パイナップルソースが入ってアクセントに！ブルーの部分は塩ライチ味，ホワイトの部分はココナッツ味
+          </p>
+          <h6>おすすめ度 ❤ ❤ ❤  <span> ❤ ❤</span></h6>
+          <div class="osusume">
+            <img src="imgs/店員さん.jpg" alt="" class="tenninn">
+            <p class="comment">
+             ライチが好きな方にはぜひオススメしたいフレーバー！ソルベなのでさっぱり召し上がっていただけます！
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="aloha">
-        <img src="imgs/tuin.png" alt="">
-        <p>ツインベリーチーズケーキ</p>
+
+      <div class="modal">
+        <div class="aloha modal-box">
+          <a href="#news15" class="modal-button">
+            <img src="imgs/hawaii.jpg" alt="" class="banner">
+                 <p>ハワイアンクランチ</p>
+          </a>
+        </div>
+        <div id="news15" style="display:none;" class="news">
+          <img src="imgs/hawaii.jpg" alt="" class="banner">
+          <h5>ハワイアンクランチ</h5>
+          <p>
+            ココナッツ感たっぷりフレーバー!<br>
+            ココナッツ味のフレーバーにカシューナッツとパイナップルソースが入っており，ハワイ気分を楽しめる！ナッツのアクセントがたまらない！
+          </p>
+          <h6>おすすめ度 ❤ ❤ ❤ ❤ ❤<span></span></h6>
+          <div class="osusume">
+            <img src="imgs/店員さん.jpg" alt="" class="tenninn">
+            <p class="comment">
+             ハワイアンクランチが売り出されると聞き，全国の店長がざわついた程おいしいフレーバー！SERECT FLAVORで迷ったらこれ！
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="aloha">
-        <img src="imgs/lemom.png" alt="">
-        <p>レモンシャーベット</p>
+
+      <div class="modal">
+        <div class="aloha modal-box">
+          <a href="#news16" class="modal-button">
+            <img src="imgs/rainbow.png" alt="" class="banner">
+                 <p>レインボーシャーベット</p>
+          </a>
+        </div>
+        <div id="news16" style="display:none;" class="news">
+          <img src="imgs/rainbow.png" alt="" class="banner">
+          <h5>レインボーシャーベット</h5>
+          <p>
+            見ていて楽しいフレーバー!<br>
+            ラズベリーの甘酸っぱさがたまらない！フルーツ感たっぷりのソルベ！ピンクの部分はラズベリー，オレンジの部分はオレンジ味，ホワイトの部分はパイナップル味
+          </p>
+          <h6>おすすめ度 ❤ ❤ ❤ ❤ <span>❤</span></h6>
+          <div class="osusume">
+            <img src="imgs/店員さん.jpg" alt="" class="tenninn">
+            <p class="comment">
+             味も見た目も楽しい！フルーツ感を楽しみつつさっぱりとアイスを食べたい方にオススメ！
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="aloha">
-        <img src="imgs/amaro.jpg" alt="">
-        <p>アマーロアフォガート</p>
+
+
+
+      <div class="modal">
+        <div class="aloha modal-box">
+          <a href="#news7" class="modal-button">
+            <img src="imgs/MO.jpg" alt="" class="banner">
+                 <p>キャラメル抹茶オレ</p>
+          </a>
+        </div>
+        <div id="news7" style="display:none;" class="news">
+          <img src="imgs/MO.jpg" alt="" class="banner">
+          <h5>キャラメル抹茶オレ</h5>
+          <p>
+            抹茶好きからの支持が熱いフレーバー!<br>
+            抹茶とキャラメルの組み合わせなんておいしくない訳がない！キャラメルワッフルコーンとキャラメルソースが入っており，キャラメル感もたっぷりなアイス！ホワイトの部分はクリームミルク味，うすいグリーンの部分は抹茶味
+          </p>
+          <h6>おすすめ度 ❤ ❤ ❤ ❤ ❤<span></span></h6>
+          <div class="osusume">
+            <img src="imgs/店員さん.jpg" alt="" class="tenninn">
+            <p class="comment">
+             一口食べて感動する美味しさ！STANDARD FLAVORになっておかしくないほど食べやすく人気なフレーバー！
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="aloha">
-        <img src="imgs/ogura.jpg" alt="">
-        <p>小倉トースト<br>～大納言あずき使用～</p>
+
+    
+      <div class="modal">
+        <div class="aloha modal-box">
+          <a href="#news8" class="modal-button">
+            <img src="imgs/chip.jpg" alt="" class="banner">
+                 <p>チョコレートチップ</p>
+          </a>
+        </div>
+        <div id="news8" style="display:none;" class="news">
+          <img src="imgs/chip.jpg" alt="" class="banner">
+          <h5>チョコレートチップ</h5>
+          <p>
+            パリパリ好き待望のフレーバー！<br>
+            バニラ味のアイスにパリパリのチョコレートが入っていて食感を楽しめる！バニラもチョコも味わえるフレーバー！
+          </p>
+          <h6>おすすめ度 ❤ ❤ ❤  <span> ❤ ❤</span></h6>
+          <div class="osusume">
+            <img src="imgs/店員さん.jpg" alt="" class="tenninn">
+            <p class="comment">
+             チョップドチョコレートのバニラver.という感じ！王道の組み合わせなので味は間違いない！
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="aloha">
-        <img src="imgs/sunset.png" alt="">
-        <p>サンセットサーフィン</p>
+
+      <div class="modal">
+        <div class="aloha modal-box">
+          <a href="#news9" class="modal-button">
+            <img src="imgs/purettu.png" alt="" class="banner">
+                 <p>ワンダフルキャラメル<br>プレッツェル</p>
+          </a>
+        </div>
+        <div id="news9" style="display:none;" class="news">
+          <img src="imgs/purettu.png" alt="" class="banner">
+          <h5>ワンダフルキャラメル<br>プレッツェル</h5>
+          <p>
+            キャラメル感満点のフレーバー!<br>
+            塩キャラメル味のアイスにキャラメルソースと塩キャラメル味のプレッツェルが入っており，キャラメルを口いっぱい感じることができます！
+          </p>
+          <h6>おすすめ度 ❤ ❤ ❤ ❤ ❤<span></span></h6>
+          <div class="osusume">
+            <img src="imgs/店員さん.jpg" alt="" class="tenninn">
+            <p class="comment">
+             すごく濃厚で，まるでキンキンに冷えた塩キャラメルをかじってるよう！シェイクにしてもとってもおいしい！
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="aloha">
-        <img src="imgs/hawaii.jpg" alt="">
-        <p>ハワイアンクランチ</p>
+
+      <div class="modal">
+        <div class="aloha modal-box">
+          <a href="#news10" class="modal-button">
+            <img src="imgs/tuin.png" alt="" class="banner">
+                 <p>ツインベリーチーズケーキ</p>
+          </a>
+        </div>
+        <div id="news10" style="display:none;" class="news">
+          <img src="imgs/tuin.png" alt="" class="banner">
+          <h5>ツインベリーチーズケーキ</h5>
+          <p>
+            2種のベリーが入ったチーズケーキフレーバ!<br>
+            ストロベリーに加えブルーベリーソースが入ってお得！基本のアイスはチーズケーキ味で，中にはクリームチーズを使ったベイクドチーズケーキキューブが入ってます！
+          </p>
+          <h6>おすすめ度 ❤ ❤ ❤ ❤ <span>❤</span></h6>
+          <div class="osusume">
+            <img src="imgs/店員さん.jpg" alt="" class="tenninn">
+            <p class="comment">
+             ブルーベリーの味もちゃんとしておいしい！ストロベリーチーズケーキファンにはぜひ食べていただきたい！
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="aloha">
-        <img src="imgs/rainbow.png" alt="">
-        <p>レインボーシャーベット</p>
+
+      <div class="modal">
+        <div class="aloha modal-box">
+          <a href="#news11" class="modal-button">
+            <img src="imgs/lemom.png" alt="" class="banner">
+                 <p>レモンシャーベット</p>
+          </a>
+        </div>
+        <div id="news11" style="display:none;" class="news">
+          <img src="imgs/lemom.png" alt="" class="banner">
+          <h5>レモンシャーベット</h5>
+          <p>
+            さっぱりレモンのフレーバー!<br>
+            ちょっと酸っぱいレモン味のシャーベット！ソルベと違ってミルク感があるのが特徴！
+          </p>
+          <h6>おすすめ度 ❤ ❤ ❤ ❤ <span>❤</span></h6>
+          <div class="osusume">
+            <img src="imgs/店員さん.jpg" alt="" class="tenninn">
+            <p class="comment">
+             夏のあついときにオススメ！ソルベより濃厚でアイスクリームよりもさっぱりしています！
+            </p>
+          </div>
+        </div>
       </div>
+
+
+
+
+      
+     
+
+
+
+      
     </div>
   </section>
 
