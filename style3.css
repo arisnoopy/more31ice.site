@@ -391,12 +391,14 @@ footer {
     }
 
     .modaal-content-container h6 {
-        font-size: 8px;
-        margin: 10px;
+        font-size: 7px;
+        margin: 10px 0;
+        letter-spacing: 0.00em;
     }
 
     .modaal-content-container span {
         color: #4f4f4f;
+        opacity: 0;
     }
 
     .modaal-content-container .tenninn {
