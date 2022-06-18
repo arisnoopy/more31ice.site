@@ -424,6 +424,10 @@ footer {
         width: 100vw;
     }
 
+    .fom .ices{
+        justify-content: center;
+    }
+
     .fom h3 {
         padding-top: 80px;
     }
