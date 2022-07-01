@@ -579,8 +579,8 @@ footer {
     /*********************************  　　　　　　ヘッダー　　　　　　 **************************************/
 
     header {
-        height: 5vh;
-        line-height: 5vh;
+        height: 7vh;
+        line-height: 7vh;
         padding: 0 5vw;
         position: fixed;
         width: 100vw;
@@ -594,9 +594,10 @@ footer {
         width: 40vw;
     }
 
-    header p {
-        line-height: 5vh;
-        font-size: 3vw;
+    header p{
+        line-height: 7vh;
+        font-size: 5vw;
+        width: 50vw;
     }
 
     .menu-btn {
@@ -604,29 +605,29 @@ footer {
         top: 0px;
         right: 0px;
         display: flex;
-        height: 5vh;
-        width: 5vh;
+        height: 7vh;
+        width: 7vh;
         justify-content: center;
         align-items: center;
         z-index: 90;
-        background-color: #fff;
+        background-color: rgba(255, 255, 255, 0);
     }
     .menu-btn span,
     .menu-btn span:before,
     .menu-btn span:after {
         content: '';
         display: block;
-        height: 1.5px;
-        width: 12.5px;
+        height: 3px;
+        width: 22px;
         border-radius: 1.5px;
         background-color: #c01d74;
         position: absolute;
     }
     .menu-btn span:before {
-        bottom: 4px;
+        bottom: 7px;
     }
     .menu-btn span:after {
-        top: 4px;
+        top: 7px;
     }
     
     #menu-btn-check:checked ~ .menu-btn span {
@@ -694,7 +695,6 @@ footer {
         top: 0;
         left: 100%;/*leftの値を変更してメニューを画面外へ*/
         z-index: 80;
-        background-color: #fff;
         background-image: url(imgs/BR-background3.png);
         transition: all 0.5s;/*アニメーション設定*/
     }
@@ -706,13 +706,14 @@ footer {
     
     
 
+    
     /*********************************  　　　　　　How to order　　　　　　 **************************************/
 
     .title {
         background-color: #c01d74;
         color: #fff;
         padding: auto auto;
-
+        padding-top: 10vh;
     }
 
     .title h1 {
